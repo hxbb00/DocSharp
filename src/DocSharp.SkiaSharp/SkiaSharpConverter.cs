@@ -17,24 +17,14 @@ public class SkiaSharpConverter : NonGdiImageConverter
         if (inputFormat == ImageFormat.Svg)
         {
             var svg = new SKSvg();
-            svg.Load(input);
-            var picture = svg.Picture;
-            int width = Math.Max(1, (int)Math.Ceiling(svg.Drawable?.Bounds.Width ?? 100.0));
-            int height = Math.Max(1, (int)Math.Ceiling(svg.Drawable?.Bounds.Height ?? 100.0));
-
-            using (var bitmap = new SKBitmap(width, height, SKColorType.Bgra8888, SKAlphaType.Premul))
-            using (var canvas = new SKCanvas(bitmap))
+            if (svg.Load(input) is SKPicture)
             {
-                canvas.Clear(SKColors.Transparent);
-                if (picture != null)
-                    canvas.DrawPicture(picture);
-                canvas.Flush();
-
-                using (var img = SKImage.FromBitmap(bitmap))
-                using (var data = img.Encode(SKEncodedImageFormat.Png, 100))
-                {
-                    data.SaveTo(output);
-                }
+                if (!svg.Save(output, SKColors.Transparent, SKEncodedImageFormat.Png, 100, 1f, 1f))
+                    throw new InvalidOperationException("SkiaSharpConverter: Unable to save SVG as PNG");
+            }
+            else
+            {
+                throw new InvalidOperationException("SkiaSharpConverter: Unable to load SVG image");
             }
         }
         else if (inputFormat == ImageFormat.Jpeg2000)
