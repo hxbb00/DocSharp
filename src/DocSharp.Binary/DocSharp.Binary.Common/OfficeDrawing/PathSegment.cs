@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.Tools;
+using DocSharp.Binary.Tools;
 
 namespace DocSharp.Binary.OfficeDrawing
 {

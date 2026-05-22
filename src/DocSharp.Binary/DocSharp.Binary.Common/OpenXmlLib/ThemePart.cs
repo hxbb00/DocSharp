@@ -1,4 +1,4 @@
-﻿namespace DocSharp.Binary.OpenXmlLib
+namespace DocSharp.Binary.OpenXmlLib
 {
     public class ThemePart : OpenXmlPart
     {

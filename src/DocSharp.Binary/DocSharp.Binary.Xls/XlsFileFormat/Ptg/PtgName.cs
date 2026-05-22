@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using DocSharp.Binary.StructuredStorage.Reader;
 
 namespace DocSharp.Binary.Spreadsheet.XlsFileFormat.Ptg

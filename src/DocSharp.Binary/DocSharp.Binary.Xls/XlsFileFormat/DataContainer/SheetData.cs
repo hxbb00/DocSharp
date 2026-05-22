@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.CommonTranslatorLib;
+using DocSharp.Binary.CommonTranslatorLib;
 using DocSharp.Binary.Spreadsheet.XlsFileFormat.Records;
 
 namespace DocSharp.Binary.Spreadsheet.XlsFileFormat

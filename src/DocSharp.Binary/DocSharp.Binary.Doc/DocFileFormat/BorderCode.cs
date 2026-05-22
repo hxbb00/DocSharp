@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.CommonTranslatorLib;
+using DocSharp.Binary.CommonTranslatorLib;
 using DocSharp.Binary.Tools;
 
 namespace DocSharp.Binary.DocFileFormat

@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.OpenXmlLib.DrawingML;
+using DocSharp.Binary.OpenXmlLib.DrawingML;
 using DocSharp.Binary.Spreadsheet.XlsFileFormat;
 
 namespace DocSharp.Binary.SpreadsheetMLMapping

@@ -1,4 +1,4 @@
-﻿using DocSharp;
+using DocSharp;
 using System.IO;
 using System.Drawing;
 using System.Drawing.Imaging;

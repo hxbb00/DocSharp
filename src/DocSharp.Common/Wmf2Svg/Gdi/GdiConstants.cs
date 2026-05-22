@@ -1,4 +1,4 @@
-﻿namespace DocSharp.Wmf2Svg.Gdi;
+namespace DocSharp.Wmf2Svg.Gdi;
 
 public static class GdiConstants
 {

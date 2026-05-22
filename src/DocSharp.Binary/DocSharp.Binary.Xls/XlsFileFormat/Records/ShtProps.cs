@@ -1,4 +1,4 @@
-﻿using System.Diagnostics;
+using System.Diagnostics;
 using DocSharp.Binary.StructuredStorage.Reader;
 using DocSharp.Binary.Tools;
 

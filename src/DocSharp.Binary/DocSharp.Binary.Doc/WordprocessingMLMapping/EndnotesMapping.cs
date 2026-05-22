@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.OpenXmlLib;
+using DocSharp.Binary.OpenXmlLib;
 using DocSharp.Binary.DocFileFormat;
 
 namespace DocSharp.Binary.WordprocessingMLMapping

@@ -1,4 +1,4 @@
-﻿namespace DocSharp.Binary.Spreadsheet.XlsFileFormat.DataContainer
+namespace DocSharp.Binary.Spreadsheet.XlsFileFormat.DataContainer
 {
     public class HyperlinkData
     {

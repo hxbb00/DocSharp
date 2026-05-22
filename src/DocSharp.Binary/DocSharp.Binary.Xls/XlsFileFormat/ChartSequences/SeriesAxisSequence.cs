@@ -1,4 +1,4 @@
-﻿
+
 namespace DocSharp.Binary.Spreadsheet.XlsFileFormat
 {
     //public class SeriesAxisSequence : BiffRecordSequence

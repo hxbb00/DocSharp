@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.OfficeDrawing;
+using DocSharp.Binary.OfficeDrawing;
 using System.IO;
 
 namespace DocSharp.Binary.PptFileFormat

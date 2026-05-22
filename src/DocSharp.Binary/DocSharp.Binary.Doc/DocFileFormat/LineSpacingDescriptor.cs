@@ -1,4 +1,4 @@
-﻿namespace DocSharp.Binary.DocFileFormat
+namespace DocSharp.Binary.DocFileFormat
 {
     public class LineSpacingDescriptor
     {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using DocSharp.Binary.Spreadsheet.XlsFileFormat.Structures;
 using DocSharp.Binary.StructuredStorage.Reader;

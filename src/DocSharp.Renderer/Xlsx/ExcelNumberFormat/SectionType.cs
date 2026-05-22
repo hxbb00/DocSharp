@@ -1,4 +1,4 @@
-﻿namespace ExcelNumberFormat
+namespace ExcelNumberFormat
 {
     internal enum SectionType
     {

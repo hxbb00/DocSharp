@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.CommonTranslatorLib;
+using DocSharp.Binary.CommonTranslatorLib;
 namespace DocSharp.Binary.Spreadsheet.XlsFileFormat
 {
     public class ChartSheetData : SheetData

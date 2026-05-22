@@ -1,4 +1,4 @@
-﻿namespace DocSharp.Binary.PptFileFormat
+namespace DocSharp.Binary.PptFileFormat
 {
     //[OfficeRecordAttribute(0x1011)]
     //public class VbaProjectAtom : Record

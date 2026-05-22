@@ -1,4 +1,4 @@
-﻿namespace DocSharp.Binary.SpreadsheetMLMapping
+namespace DocSharp.Binary.SpreadsheetMLMapping
 {
     // TODO: no longer needed
     //public class AreaFormatMapping : AbstractChartMapping,

@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.Spreadsheet.XlsFileFormat;
+using DocSharp.Binary.Spreadsheet.XlsFileFormat;
 using DocSharp.Binary.CommonTranslatorLib;
 using DocSharp.Binary.OpenXmlLib.DrawingML;
 using DocSharp.Binary.Spreadsheet.XlsFileFormat.Records;

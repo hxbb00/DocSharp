@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.Spreadsheet.XlsFileFormat.Records;
+using DocSharp.Binary.Spreadsheet.XlsFileFormat.Records;
 using DocSharp.Binary.StructuredStorage.Reader;
 
 namespace DocSharp.Binary.Spreadsheet.XlsFileFormat

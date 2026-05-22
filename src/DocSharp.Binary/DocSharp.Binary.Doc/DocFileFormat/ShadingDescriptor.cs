@@ -1,4 +1,4 @@
-﻿using DocSharp.Binary.CommonTranslatorLib;
+using DocSharp.Binary.CommonTranslatorLib;
 using System.Collections;
 using DocSharp.Binary.Tools;
 
