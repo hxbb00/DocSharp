@@ -18,10 +18,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SkiaSharp" Version="3.119.2" />
+    <PackageReference Include="SkiaSharp" Version="3.119.4" />
     <PackageReference Include="Svg.Skia" Version="5.0.0" />
-    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="3.119.2" />
-    <PackageReference Include="CoreJ2K.Skia" Version="2.2.0.62" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="3.119.4" />
+    <PackageReference Include="CoreJ2K.Skia" Version="2.2.2.72" />
     <PackageReference Include="BitMiracle.LibTiff.NET" Version="2.4.660" />
   </ItemGroup>
   <ItemGroup>
