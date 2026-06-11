@@ -1,3 +1,7 @@
+## 0.20.0 - Not published yet
+
+- ⏳ Work in progress
+
 ## 0.19.0 - 2026.05.13
 
 - Improve performance in DOCX converters by caching styles

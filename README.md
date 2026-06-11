@@ -36,7 +36,7 @@ Supported elements vary depending on input and output formats, see [Supported fe
 - DocSharp.SystemDrawing is for Windows only (.NET Framework or net*-windows), as System.Drawing.Common is based on GDI+ and only supported on Windows since .NET 6.
 - DocSharp.ImageSharp is cross-platform for .NET 8+, as ImageSharp is fully managed C# code but does not support .NET Framework.
 - DocSharp.MagickNET is cross-platform for both .NET and .NET Framework, but Magick.NET bundles many native libraries that might not work on non-desktop platforms (Android / iOS / WASM)
-- DocSharp.Renderer depends on QuestPDF, which currently supports Windows x64 / x86, macOS x64 / ARM64, Linux x64 / ARM64. Windows ARM64, Android, iOS are not supported yet, due to a custom Skia build. Plus, the XPS generation is only supported on Windows. 
+- DocSharp.Renderer depends on QuestPDF, which currently supports Windows x64 / x86 / ARM64, macOS x64 / ARM64, Linux x64 / ARM64. Android and iOS are not supported yet, due to a custom Skia build. Plus, the XPS generation is only supported on Windows. 
 
 ### Usage
 
@@ -83,8 +83,6 @@ Other recommended libraries (some of these are used in the sample app, *not* dep
     + [ClosedXML](https://github.com/ClosedXML/ClosedXML) - XLSX
     + [Sylvan.Data.Excel](https://github.com/MarkPflug/Sylvan.Data.Excel) - XLSX, XLS, XLSB
     + [ShapeCrawler](https://github.com/ShapeCrawler/ShapeCrawler) - PPTX; can also render slides to images
-    + [NPOI](https://github.com/nissl-lab/npoi) - DOCX, XLSX, XLS; partial port of Apache POI
-    + [FluentNPOI](https://github.com/HouseAlwaysWin/FluentNPOI) - XLSX, XLS; HTML/PDF export
 - Read only / Extract data: 
     + [GustavoHennig/b2xtranslator](https://github.com/GustavoHennig/b2xtranslator) - DOC prior to Office 97
     + [ExcelDataReader](https://github.com/ExcelDataReader/ExcelDataReader) - XLS (pre-97 too), XLSB, XLSX, CSV
