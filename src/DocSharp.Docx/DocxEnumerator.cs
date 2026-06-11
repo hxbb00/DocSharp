@@ -500,11 +500,11 @@ public abstract class DocxEnumerator<TOutput> where TOutput : class
                 // (source: https://learn.microsoft.com/en-us/dotnet/api/documentformat.openxml.wordprocessing.carriagereturn)
                 ProcessBreak(new Break() { }, sb);
                 return true;
-            case TabChar:
-                ProcessText(new Text("\t"), sb);
+            case TabChar tabChar:
+                ProcessTabChar(tabChar, sb);
                 return true;
-            case NoBreakHyphen:
-                ProcessText(new Text("\u2011"), sb);
+            case NoBreakHyphen noBreakHyphen:
+                ProcessNoBreakHyphen(noBreakHyphen, sb);
                 return true;
             case PositionalTab positionalTab:
                 ProcessPositionalTab(positionalTab, sb);
@@ -550,6 +550,17 @@ public abstract class DocxEnumerator<TOutput> where TOutput : class
                 break;
         }
         return false;
+    }
+
+    internal virtual void ProcessTabChar(TabChar tabChar, TOutput sb)
+    {
+        // Default behavior: emit a tab as a single tab character to be handled by ProcessText
+        ProcessText(new Text("\t"), sb);
+    }
+
+    internal virtual void ProcessNoBreakHyphen(NoBreakHyphen noBreakHyphen, TOutput sb)
+    {
+        ProcessText(new Text("\u2011"), sb);
     }
 
     internal virtual bool IsSupportedGraphicData(A.GraphicData graphicData)
